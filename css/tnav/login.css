@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html{ overflow: hidden; }
+/* base */
+*{ padding: 0; margin: 0; font-family:'Nanum Gothic',monospace; font-size: 12px; color: #666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor: pointer; } 
+label.away{ position: absolute; left: -999em; }
+
+
+/* loginBox */
+
+.loginBox { width: 800px; height: 500px; background-color: #ffffff; border: 1px solid #666666;  box-sizing: border-box; margin: 0 auto; margin-top: 30px;  }
+.loginBox02  { float: left; width: 400px; padding-left: 50px; box-sizing: border-box;   }
+.loginBox h2 { font-size: 32px; font-weight: bold; color: #333333; margin-bottom: 80px; text-align: center; padding: 40px;}
+.loginBox h3 { font-size: 18px; font-weight: bold; color: #333333; margin-bottom: 40px; }
+#ootEmail, #ootPw{ border: none; border-bottom: 1px solid #666666; width: 310px; height: 30px; margin-bottom: 10px; padding-left: 5px;  }
+#loginBtn { border: none; width: 95px; height: 30px; background-color: #333333; color: #ffffff; margin-right: 7px; }
+#pwText { font-size: 11px; color: #333333; }
+#ootPw { margin-bottom: 30px; }
+
+
+/* joinBox */
+
+.joinBox { float: left;  width: 390px; padding-left: 20px; box-sizing: border-box; }
+.joinBox fieldset { float: left; }
+.joinBox h3 { font-size: 18px; font-weight: bold; color: #333333; margin-bottom: 60px; }
+.joinBox p { font-size: 11px; color: #333333; line-height: 22px; margin-bottom: 25px; }
+#accountBtn { border: none; width: 130px; height: 30px; background-color: #333333; color: #ffffff; }

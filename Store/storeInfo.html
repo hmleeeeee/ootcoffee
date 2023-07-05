@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>매장안내 - 원오브뎀</title>
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="../images/common/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../images/common/favicon_iphone.png" />
+    <!--Plug-in css-->
+    <link rel="stylesheet" href="../css/tnav/colorbox.css" />
+    <link rel="stylesheet" href="../css/flexslider.css" />
+    <!--font css-->
+    <link type="text/css" rel="stylesheet" href="../css/css/font/noto_v3.css" />
+    <link type="text/css" rel="stylesheet" href="../css/xeicon/xeicon.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!--custom css-->
+    <link rel="stylesheet" href="../css/common2.css" />
+    <link rel="stylesheet" href="../css/subLayout.css" />
+    <style type="text/css">
+        header,
+        footer,
+        section,
+        .popup {
+            min-width: 1200px;
+        }
+    </style>
+    <!--Plug-in js-->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/tnav/jquery.colorbox-min.js"></script>
+    <!--custom js-->
+    <script src="../js/common.js"></script>
+</head>
+
+<body class="store-page">
+    <header>
+        <div class="hWrap">
+            <div class="hTop">
+                <div class="hLeft">
+                    <ul>
+                        <li><a href="../tnav/login.html" title="로그인 페이지바로가기" class="new01" target="_blank">login</a></li>
+                        <li><a href="../tnav/join.html" title="회원가입 페이지바로가기" class="new02">join</a></li>
+                        <li><a href="../tnav/sitemap.html" title="사이트맵 페이지바로가기" class="new03">sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="snsNav">
+                    <ul>
+                        <li class="facebook"><a href="https://www.facebook.com/" title="페이스북페이지 바로가기" target="_blank"><i class="xi-facebook"></i></a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/" title="인스타그램페이지 바로가기" target="_blank"><i class="xi-instagram"></i></a></li>
+                        <li class="search"><a href="#searchBox" title="검색창열기" class="searchIcon"><i class="xi-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hBottom">
+                <h1><a href="../index.html"><img src="../images/common/logo.png" alt="로고"></a></h1>
+                <nav class="mNav">
+                    <ul>
+                        <li> <a href="../AboutUs/company.html" title="회사소개페이지 바로가기">AboutUs</a>
+                            <ul class="subNav">
+                                <li><a href="../AboutUs/company.html" title="회사소개 페이지 바로가기">회사소개</a></li>
+                                <li><a href="../AboutUs/cibi.html" title="cibi 페이지 바로가기">CI/BI</a></li>
+                                <li><a href="../AboutUs/map.html" title="오시는길 페이지 바로가기">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="../Product/coffee.html" title="상품페이지 바로가기">Product</a>
+                            <ul class="subNav">
+                                <li><a href="../Product/coffee.html" title="커피메뉴 페이지 바로가기">Coffee</a></li>
+                                <li><a href="../Product/nonCoffee.html" title="음료메뉴 페이지 바로가기">Non-coffee</a></li>
+                                <li><a href="../Product/wholeBean.html" title="원두메뉴 페이지 바로가기">Whole bean</a></li>
+                                <li><a href="../Product/greenBean.html" title="생두메뉴 페이지 바로가기">Green bean</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="../Store/storeInfo.html" title="매장안내페이지 바로가기">Store</a>
+                            <ul class="subNav">
+                                <li><a href="../Store/storeInfo.html" title="매장안내 페이지 바로가기">매장안내</a></li>
+                                <li><a href="../Store/showRoom.html" title="쇼룸안내 페이지 바로가기">쇼룸안내</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="../Event/event01.html" title="매장소식페이지 바로가기">Journal</a>
+                            <ul class="subNav">
+                                <li><a href="../Event/event01.html" title="이벤트 페이지 바로가기">이벤트</a></li>
+                                <li><a href="../Event/notice.html" title="공지사항 페이지 바로가기">공지사항</a></li>
+                                <li><a href="../Event/class.html" title="커피클래스 페이지 바로가기">커피클래스</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Contact/contactUs.html" title="납품안내페이지 바로가기">Contact</a>
+                            <ul class="subNav">
+                                <li><a href="../Contact/contactUs.html" title="납품문의 페이지 바로가기">납품문의</a></li>
+                                <li><a href="../Contact/brewingGuide.html" title="브루잉가이드 페이지 바로가기">브루잉가이드</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="iframeBox">
+        <form action="#">
+            <fieldset>
+                <legend>검색폼</legend>
+                <input type="text" placeholder="검색" id="searchBox" />
+                <input type="button" id="searchBtn" /> </fieldset>
+        </form> <a href="#seachBoxClose" class="seachBoxClose">X</a> 
+    </div>
+    <section class="sotreSection">
+        <div class="mainWrap02"> 
+            <img src="../images/sub/store_main_bg.jpg" alt="매장안내메인이미지" /> 
+        </div>
+        <div class="contentWrap02">
+            <div class="box">
+               <!--s:invigator-->
+                <div class="invigatorWrap">
+                    <div class="invigator">
+                        <ul>
+                            <li><a href="../index.html" title="메인페이지 바로가기"><i class="xi-home"></i></a></li>
+                            <li><a href="storeInfo.html" title="Coffee페이지 바로가기">> Store</a></li>
+                            <li><a href="storeInfo.html" title="매장안내페이지 바로가기">> 매장안내</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--e:invigator-->
+                <div class="tabBox">
+                    <ul class="tab">
+                        <li><a href="#tab1">합정 (로스터리)</a></li>
+                        <li><a href="#tab2">강남 (테이스트)</a></li>
+                        <li class="last"><a href="#tab3">하남 (스타필드)</a></li>
+                    </ul>
+                    <div class="conWrap">
+                        <div class="con01">
+                            <div class="con">
+                                <div class="con-img"> 
+                                   <img src="../images/sub/con01_01.jpg" alt="합정점 로스팅이미지" class="img01" /> <img src="../images/sub/con01_02.jpg" alt="합정점 매장 내부이미지" class="img02" />
+                                    <p>합정동 뒷골목, 지게차가 드나들던 맥주 창고가 원오브뎀의 첫 로스터리매장이 되었습니다. 크고 작은 카페가 즐비한 이곳에 자리잡은 원오브뎀.<br /> 간판 없이도 커피 볶는 향에 멈추게 되는 건물 안으로 들어가면, 높은 천장 아래 펼쳐진 360도 오픈 바를 마주합니다.</p>
+                                </div>
+                                <ul class="conbottom">
+                                    <li><img src="../images/sub/con01_03.jpg" alt="합정점 브런치 이미지" / class="cont01img"></li>
+                                    <li><img src="../images/sub/con01_04.jpg" alt="합정점 라떼아트 이미지" /></li>
+                                </ul>
+                                <p>시장에 온 것 같은 생기로 북적이는 이 공간에 산책하는 동네 주민분들과 데이트를 나온 커플, 자전거를 세운 라이더들이 자연스레 녹아듭니다.
+                                    <br />언제나 생기넘치는 바리스타들의 리듬을 좇으며 커피를 즐기다 커피, 사람, 음악 - 공간 전체가 모두 닮아 있다는 생각이 드신다면,<br />당신은 이미 원오브뎀과 함께하고계시네요.</p>
+                                <div class="conmapBox">
+                                    <h2>Location <span><i class="xi-location-arrow"></i></span></h2>
+                                    <iframe src="storeInfo01.html" width="1020" height="500"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con02">
+                            <div class="con">
+                                <div class="con-img"> <img src="../images/sub/con02_01.jpg" alt="강남점 매장이미지" class="img01" /> <img src="../images/sub/con02_02.jpg" alt="강남점 매장 내부이미지" class="img02" />
+                                    <p>계단을 오르면 테마별로 큐레이션된 300여 권의 책들이 펼쳐집니다. 작가들의 사적인 취향을 다룬 책부터 미식, 라이프스타일, 여행, 디자인까지 취향을 한껏 발휘하여
+                                        <br />책을 몇 권 집어들면, 150여평 라운지 곳곳이 당신의 안식처가 됩니다. 저녁 시간 오마카세 커피바에서는, 특별한 날을 보내는 몇 분만을 위해 바리스타가 미식 코스를
+                                        <br />만들어 내는 모습을 볼 수 있습니다. 잊지못할 추억을 만들고 싶다면 강남점 원오브뎀과 함께.</p>
+                                </div>
+                                <ul class="conbottom">
+                                    <li><img src="../images/sub/con02_03.jpg" alt="강남점 커피호퍼 이미지" / class="cont01img"></li>
+                                    <li><img src="../images/sub/con02_04.jpg" alt="강남점 커핑 이미지" /></li>
+                                </ul>
+                                <p>시장에 온 것 같은 생기로 북적이는 이 공간에 산책하는 동네 주민분들과 데이트를 나온 커플, 자전거를 세운 라이더들이 자연스레 녹아듭니다.
+                                    <br />언제나 생기넘치는 바리스타들의 리듬을 좇으며 커피를 즐기다 커피, 사람, 음악 - 공간 전체가 모두 닮아 있다는 생각이 드신다면,
+                                    <br />당신은 이미 원오브뎀과 함께하고계시네요.</p>
+                                <div class="conmapBox">
+                                    <h2>Location <span><i class="xi-location-arrow"></i></span></h2>
+                                    <iframe src="storeInfo02.html" width="1020" height="500"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con03">
+                            <div class="con">
+                                <div class="con-img"> <img src="../images/sub/con03_01.jpg" alt="하남점 매장이미지" class="img01" /> <img src="../images/sub/con03_02.jpg" alt="하남점 매장 내부이미지" class="img02" />
+                                    <p>사람들이 입구에서 서서 머뭇거리는 이유를 추론하기란 어렵지 않습니다. 아무 장식 없이 너비 8m, 깊이 15m의 거대한 테이블만이 존재하는 이곳이,
+                                        <br /> 과연 카페인지 고민하게 하기 때문이죠. 용기 있는 몇 분이 성큼 발을 내디디면, 이내 카페는 삼삼오오 모여 커피를 마시며 북적이는 광장이 됩니다. </p>
+                                </div>
+                                <div class="conbottom">
+                                    <img src="../images/sub/con03_03.jpg" alt="하남점 드래프트콜드브루 이미지" />
+                                </div>
+                                <p class="bold02">드래프트 라떼</p>
+                                <p class="left">크리미한 거품이 부드러운, 달콤한 콜드브루라떼. 생맥주처럼 케그에서 바로 뽑아낸 드래프트 라떼는 촘촘한 거품으로 입에 닿는<br /> 촉감이 아주 좋습니다. 시원하고 달콤한 맛이 더위를 잊게 하는 원오브뎀 시그니쳐 메뉴입니다.</p>
+                                <div class="conmapBox">
+                                    <h2>Location <span><i class="xi-location-arrow"></i></span></h2>
+                                    <iframe src="storeInfo03.html" width="1020" height="450"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fWrap">
+            <div class="fLeft">
+                One of them coffee.<br />
+                15-6, Eungam-ro 29-gil, Eunpyeong-gu, Seoul,<br /> Republic of Korea
+                <p>© 2017 BLUE BOTTLE COFFEE Inc., All Rights Reserved</p>
+            </div>
+            <h1 class="fLogo"><img src="../images/common/f_logo.png" alt="푸터로고" /></h1>
+            <div class="fRight">    
+                <p class="fBottom01">T. 02 - 302 - 2614 info@oneofthemcoffee.com</p>
+                <p><a href="AboutUs/company.html">ABOUT</a></p>
+                <p><a href="Contact/contactUs.html" title="납품페이지 바로가기">WHOLESALE</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

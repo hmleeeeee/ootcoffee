@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* base */
+*{ padding: 0; margin: 0; font-family:'Nanum Gothic',monospace; font-size: 12px; color: #666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor: pointer; } 
+
+/* panel */
+.panel { width: 100%; height: 667px; position: fixed; top: 0; left: 0; z-index: 1000;   }
+.panelWrap{ width: 75%; height: 100%; background-color: #111111; position: fixed; top: 0; left: 0; overflow-x: hidden; overflow-y: scroll; padding: 5px; }
+
+.login{ width: 100%; height: 65px; background-color: #282121; line-height: 65px; padding-left: 10px; box-sizing: border-box;  }
+.login > a { font-size: 16px; font-weight: bold; color: #ffffff; line-height: 55px; }
+.mypage { width: 100%; height: 55px; background-color: #282121; line-height: 55px; padding-left: 10px; box-sizing: border-box;}
+.mypage > a { font-size: 16px; font-weight: bold; color: #ffffff; }
+
+.mnav{ width: 100%; overflow: hidden; }
+.mnav > ul > li { width: 100%; overflow: hidden; position: relative; background-image: url(../images/common/mnav_icon.png); background-size: 17px 11px; background-position: 95% 20px; background-repeat: no-repeat; }
+.mnav > ul > li.on{ background-image: url(../images/common/mnav_icon_active.png); background-size: 16px 11px; background-position: 95% 20px; }
+
+.mnav > ul > li > a { font-size: 15px;  display: block; width: 100%; height: 50px; border-bottom: 1px solid #222222; box-sizing: border-box; line-height: 50px; padding-left: 10px; box-sizing: border-box; color: #ffffff; }
+.snav li { width: 100%; height: 40px; border-bottom: 1px solid #222222; box-sizing: border-box; padding: 10px; background-color: #333333; background-image: url(../images/common/mnav_icon.png); background-size: 16px 11px; background-position: 95% 11px; background-repeat: no-repeat;  }
+.snav li a  { font-size: 14px;  color: #ffffff; }
+
+.panelSide { width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); }
+.panelSide .closeBtn { color: #ededed; font-size: 30px; padding: 10px; position: absolute; top: 0; right: 20px; }
+
+/* searchBox */
+
+.searchBox { width: 100%; height: 88px;  background-color: rgba(51,51,51,0.8); position: absolute; top: 50px; z-index: 10;  }
+.searchBox input { width: 182px; height: 27px; border: none; border-radius: 5px; padding-left: 4px; }
+#searchBtn { display: inline-block; width: 63px; height: 27px; border: none; border-radius: 5px; background-color: #666666; color: #ffffff; font-weight: bold; line-height: 27px; text-align: center; margin-right: 2px; }
+.searchWrap { padding-top: 10px; float: right; margin-right: 10px;}
+
+
+/* header */
+header { width: 100%; height: 40px; display: flex; padding: 10px 0; box-sizing: border-box; margin-bottom: 10px;}
+header .panelIcon{ display: block; flex: 1; height: 40px; margin-left: 10px;  }
+header h1 { flex: 3; height: 40px;  text-align: center; }
+header .searchIcon { display: block; flex: 1; height: 40px; text-align: right; }
+header .panelIcon img { height: 28px; }
+header h1 img { height: 30px; margin-top: 3px; box-sizing: border-box; }
+header .searchIcon img { height: 30px; margin-right: 10px; box-sizing: border-box; }
+
+
+/* footer */
+footer { width: 100%; overflow: hidden; background-color: #666666; }
+.fNav { width: 100%; height: 40px; background-color: #333333; margin-bottom: 10px; }
+.fNav ul{ width: 100%; height: 40px; display: flex; } 
+.fNav li { flex: 3; text-align: center; line-height: 40px; }
+.fNav li a { flex: 1; color: #ffffff; font-size: 9px; font-weight: bold; }
+
+.snsNav { width: 100%; height: 45px; margin-bottom: 20px; }
+.snsNav ul{ width: 100%; display: flex; justify-content: center; } 
+.snsNav li { width: 32px; height: 34px; margin: 15px; }
+.snsNav li a { display: block; width: 100%; height: 100%;  }
+.snsNav li a img { width: 100%; height: 100%;  }
+
+footer address { width: 100%; height: 90px;  box-sizing: border-box; text-align: center;  color: #ffffff;  font-size: 7px;  }
+footer address a { color: #ffffff; font-size: 7px; }
+
+

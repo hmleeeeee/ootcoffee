@@ -1,0 +1,16 @@
+.popup { width: 100%; min-width: 1000px; height: 200px; background-image: url(../images/common/popupBg.jpg); }
+
+.pTop { width: 1000px; height: 170px; margin: 0 auto; }
+.pLeft, .pRight{ float: left; width: 500px; height: 170px; padding: 20px 0 20px 50px; box-sizing: border-box; }
+.popup h2{ text-transform: uppercase; color: #231f20; font-size: 32px; margin-bottom: 10px; }
+.popup p { color: #231f20; line-height: 22px; font-weight: 500; }
+.pLeft .grey { color: #0c1248; font-weight: bold; }
+
+
+.pRight { position: relative; box-sizing: border-box; }
+.pRight .qr { position: absolute; top:12px; right: 150px; }
+
+.pBottom { width: 100%; min-width: 1000px;  height: 30px; background-color: #777; }
+.pBottom form { width: 1000px; height: 30px; line-height: 30px; margin: 0 auto; text-align: right; }
+#chkBox { margin-right: 3px;  position: relative; top: 4px; }
+.pBottom label, .pBottom a { color: #fff; }
